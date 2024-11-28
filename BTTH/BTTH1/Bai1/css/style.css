@@ -1,0 +1,33 @@
+/* Định dạng danh sách */
+ol {
+    list-style-type: none; /* Bỏ dấu chấm tròn */
+    padding: 0;
+    margin: 0;
+}
+
+.flower-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.flower-item h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.flower-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.flower-item img {
+    display: block;
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
